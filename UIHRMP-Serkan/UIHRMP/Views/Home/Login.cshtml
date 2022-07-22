@@ -1,0 +1,135 @@
+﻿@model UIHRMP.Models.LoginVM
+
+@{
+    Layout = null;
+    ViewData["Title"] = "ETİK";
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+          rel="stylesheet">
+    <!-- Custom styles for this template-->
+    <link href="~/css/sb-admin-2.min.css" rel="stylesheet">
+
+
+    <link rel="icon" type="image/png" href="~/Login_v2/images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_v2/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_v2/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_v2/fonts/iconic/css/material-design-iconic-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_v2/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_v2/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_v2/vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_v2/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_v2/vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_v2/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/Login_v2/css/main.css">
+}
+
+<body class="bg-gradient-primary">
+    <div class="container">
+        <!-- Outer Row -->
+        <div class="row justify-content-center">
+            <div class="col-xl-10 col-lg-12 col-md-9">
+                <div class="card o-hidden border-0 shadow-lg my-5">
+                    <div class="card-body p-0">
+                        <!-- Nested Row within Card Body -->
+                        <div class="row" style="display:flex; justify-content:center">
+                            <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
+                            <div class="col-lg-6" style="background-color:#f7f7f7">
+                                <div class="p-5">
+                                    <form asp-action="Login" asp-controller="Home" class="login100-form validate-form">
+                                        <span style="color:#32c1fd" class="login100-form-title p-b-26">
+                                            Hoşgeldiniz!
+                                        </span>
+                                        <span class="login100-form-title p-b-48">
+                                            <img src="~/img/logo.png" class="zmdi zmdi-font"/>
+                                        </span>
+
+                                        <div class="wrap-input100 validate-input" data-validate="Doğru mail şekli: a@example.com">
+                                            <input class="input100" type="email" name="Email">
+                                            <span class="focus-input100" data-placeholder="Email"></span>
+                                        </div>
+
+                                        <div class="wrap-input100 validate-input" data-validate="Şifre boş bırakılmamalı.">
+                                            <span class="btn-show-pass">
+                                                <i class="zmdi zmdi-eye"></i>
+                                            </span>
+                                            <input class="input100" type="password" name="Password">
+                                            <span class="focus-input100" data-placeholder="Şifre"></span>
+                                        </div>
+
+                                        <div class="container-login100-form-btn">
+                                            <div class="wrap-login100-form-btn">
+                                                <div class="login100-form-bgbtn"></div>
+                                                <button value="Giriş Yap" class="login100-form-btn">Gİrİş Yap</button>
+                                            </div>
+                                        </div>
+
+                                      
+                                    @if (TempData["LoginError"] != null)
+        {
+            <div style="margin-top:10px" class="alert alert-danger" role="alert">
+                @TempData["LoginError"]
+            </div>
+
+        }
+                                    </form>
+                                </div>
+                            </div>                 
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+ 
+	
+
+	<div id="dropDownSelect1"></div>
+
+
+</body>
+<!-- Bootstrap core JavaScript-->
+<script src="~/vendor/jquery/jquery.min.js"></script>
+<script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Core plugin JavaScript-->
+<script src="~/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for all pages-->
+<script src="~/js/sb-admin-2.min.js"></script>
+
+
+
+<!--===============================================================================================-->
+<script src="~/Login_v2/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Login_v2/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Login_v2/vendor/bootstrap/js/popper.js"></script>
+<script src="~/Login_v2/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Login_v2/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+<script src="~/Login_v2/vendor/daterangepicker/moment.min.js"></script>
+<script src="~/Login_v2/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+<script src="~/Login_v2/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+<script src="~/Login_v2/js/main.js"></script>
+
+
+
+

@@ -1,0 +1,89 @@
+﻿@model IEnumerable<HRMP.CORE.Entities.Leave>
+
+@{
+    ViewData["Title"] = "ShowLeave";
+}
+
+<h1>ShowLeave</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LeaveContent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LeaveType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalDaysOff)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartLeaveDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EndLeaveDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ConfirmStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Employee)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompanyManager)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsRead)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LeaveContent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LeaveType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalDaysOff)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartLeaveDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndLeaveDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ConfirmStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Employee.ActivationCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyManager.PhotoPath)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsRead)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

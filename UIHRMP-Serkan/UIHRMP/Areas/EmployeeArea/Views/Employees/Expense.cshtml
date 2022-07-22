@@ -1,0 +1,55 @@
+﻿@using HRMP.CORE.Entities
+@model HRMP.CORE.Entities.Expense
+
+@{
+    ViewData["Title"] = "Harcama";
+}
+
+<h2>Harcama Talebi</h2>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Expense" enctype="multipart/form-data" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Amount" class="control-label">TUTAR</label>
+                <input asp-for="Amount" class="form-control"  type="number"  min="1" max="500"/>
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ExpenseContent" class="control-label">HARCAMA DETAYLARI</label>
+                <textarea asp-for="ExpenseContent" class="form-control"></textarea>
+                <span asp-validation-for="ExpenseContent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label">HARCAMA AÇIKLAMASI</label>
+                <textarea asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfExpense" class="control-label">HARCAMA TARİHİ</label>
+                <input asp-for="DateOfExpense" data-val-required="İşe giriş tarihi giriniz." class="form-control" type="date"/>
+                <span asp-validation-for="DateOfExpense" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ExpenseType" class="control-label">HARCAMA TÜRÜ</label>
+                <select asp-for="ExpenseType" class="form-control" asp-items="Html.GetEnumSelectList<ExpenseType>()"></select>
+                <span asp-validation-for="ExpenseType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ExpenseDocument" class="control-label">Belge Yükle(docx,txt,pdf,img):</label>
+                 <input type="file" asp-for="ExpenseDocument" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Oluştur" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

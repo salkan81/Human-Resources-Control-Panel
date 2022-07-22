@@ -1,0 +1,12 @@
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.CORE\bin\Release\net6.0\HRMP.CORE.deps.json
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.CORE\bin\Release\net6.0\HRMP.CORE.dll
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.CORE\bin\Release\net6.0\HRMP.CORE.pdb
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.CORE\obj\Release\net6.0\HRMP.CORE.csproj.AssemblyReference.cache
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.CORE\obj\Release\net6.0\HRMP.CORE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.CORE\obj\Release\net6.0\HRMP.CORE.AssemblyInfoInputs.cache
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.CORE\obj\Release\net6.0\HRMP.CORE.AssemblyInfo.cs
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.CORE\obj\Release\net6.0\HRMP.CORE.csproj.CoreCompileInputs.cache
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.CORE\obj\Release\net6.0\HRMP.CORE.dll
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.CORE\obj\Release\net6.0\refint\HRMP.CORE.dll
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.CORE\obj\Release\net6.0\HRMP.CORE.pdb
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.CORE\obj\Release\net6.0\ref\HRMP.CORE.dll

@@ -1,0 +1,272 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UIHRMP
+build_property.RootNamespace = UIHRMP
+build_property.ProjectDir = C:\Users\serka\Source\Repos\Human-Resources-Control-Panel\UIHRMP-Serkan\UIHRMP\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\serka\Source\Repos\Human-Resources-Control-Panel\UIHRMP-Serkan\UIHRMP
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/CompanyManager/Advance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXENvbXBhbnlNYW5hZ2VyXEFkdmFuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/CompanyManager/AdvanceDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXENvbXBhbnlNYW5hZ2VyXEFkdmFuY2VEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/CompanyManager/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXENvbXBhbnlNYW5hZ2VyXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/CompanyManager/Check.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXENvbXBhbnlNYW5hZ2VyXENoZWNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/CompanyManager/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXENvbXBhbnlNYW5hZ2VyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/CompanyManager/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXENvbXBhbnlNYW5hZ2VyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/CompanyManager/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXENvbXBhbnlNYW5hZ2VyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/CompanyManager/EditManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXENvbXBhbnlNYW5hZ2VyXEVkaXRNYW5hZ2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/CompanyManager/Expense.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXENvbXBhbnlNYW5hZ2VyXEV4cGVuc2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/CompanyManager/ExpenseDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXENvbXBhbnlNYW5hZ2VyXEV4cGVuc2VEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/CompanyManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXENvbXBhbnlNYW5hZ2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/CompanyManager/Leave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXENvbXBhbnlNYW5hZ2VyXExlYXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/CompanyManager/LeaveDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXENvbXBhbnlNYW5hZ2VyXExlYXZlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/CompanyManager/Listele.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXENvbXBhbnlNYW5hZ2VyXExpc3RlbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/CompanyManager/ManagerDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXENvbXBhbnlNYW5hZ2VyXE1hbmFnZXJEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/CompanyManager/SeeCompanyPackages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXENvbXBhbnlNYW5hZ2VyXFNlZUNvbXBhbnlQYWNrYWdlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/Employees/AdvancepaymentPermission.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXEVtcGxveWVlc1xBZHZhbmNlcGF5bWVudFBlcm1pc3Npb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/Employees/AdvancePayments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXEVtcGxveWVlc1xBZHZhbmNlUGF5bWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/Employees/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXEVtcGxveWVlc1xDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/Employees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXEVtcGxveWVlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXEVtcGxveWVlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/Employees/Expense.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXEVtcGxveWVlc1xFeHBlbnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/Employees/ExpensePermission.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXEVtcGxveWVlc1xFeHBlbnNlUGVybWlzc2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/Employees/Leave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXEVtcGxveWVlc1xMZWF2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/Employees/LeavePermission.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXEVtcGxveWVlc1xMZWF2ZVBlcm1pc3Npb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/Employees/ShowAdvancePayments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXEVtcGxveWVlc1xTaG93QWR2YW5jZVBheW1lbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/Employees/ShowExpense.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXEVtcGxveWVlc1xTaG93RXhwZW5zZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/Employees/ShowLeave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXEVtcGxveWVlc1xTaG93TGVhdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/Expenses/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXEV4cGVuc2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/Expenses/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXEV4cGVuc2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/SiteManagerArea/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2l0ZU1hbmFnZXJBcmVhXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/SiteManagerArea/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2l0ZU1hbmFnZXJBcmVhXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/SiteManagerArea/Views/SiteManager/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2l0ZU1hbmFnZXJBcmVhXFZpZXdzXFNpdGVNYW5hZ2VyXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/SiteManagerArea/Views/SiteManager/CreateCompany.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2l0ZU1hbmFnZXJBcmVhXFZpZXdzXFNpdGVNYW5hZ2VyXENyZWF0ZUNvbXBhbnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/SiteManagerArea/Views/SiteManager/CreateCompanyManager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2l0ZU1hbmFnZXJBcmVhXFZpZXdzXFNpdGVNYW5hZ2VyXENyZWF0ZUNvbXBhbnlNYW5hZ2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/SiteManagerArea/Views/SiteManager/CreatePackage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2l0ZU1hbmFnZXJBcmVhXFZpZXdzXFNpdGVNYW5hZ2VyXENyZWF0ZVBhY2thZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/SiteManagerArea/Views/SiteManager/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2l0ZU1hbmFnZXJBcmVhXFZpZXdzXFNpdGVNYW5hZ2VyXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/SiteManagerArea/Views/SiteManager/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2l0ZU1hbmFnZXJBcmVhXFZpZXdzXFNpdGVNYW5hZ2VyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/SiteManagerArea/Views/SiteManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2l0ZU1hbmFnZXJBcmVhXFZpZXdzXFNpdGVNYW5hZ2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/SiteManagerArea/Views/SiteManager/ListCompanies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2l0ZU1hbmFnZXJBcmVhXFZpZXdzXFNpdGVNYW5hZ2VyXExpc3RDb21wYW5pZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/SiteManagerArea/Views/SiteManager/ListCompanyManagers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2l0ZU1hbmFnZXJBcmVhXFZpZXdzXFNpdGVNYW5hZ2VyXExpc3RDb21wYW55TWFuYWdlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/SiteManagerArea/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2l0ZU1hbmFnZXJBcmVhXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/SiteManagerArea/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2l0ZU1hbmFnZXJBcmVhXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Views/Home/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0VXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Views/Home/UserStories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyU3Rvcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/CompanyManagerArea/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ29tcGFueU1hbmFnZXJBcmVhXFZpZXdzXFNoYXJlZFxfQWRtaW5MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-bho05mou55
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/EmployeeArea/Views/Shared/_EmployeeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVBcmVhXFZpZXdzXFNoYXJlZFxfRW1wbG95ZWVMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-gthe4rpddh
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Areas/SiteManagerArea/Views/Shared/_SiteManagerLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU2l0ZU1hbmFnZXJBcmVhXFZpZXdzXFNoYXJlZFxfU2l0ZU1hbmFnZXJMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1ag6i6pce9
+
+[C:/Users/serka/Source/Repos/Human-Resources-Control-Panel/UIHRMP-Serkan/UIHRMP/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ujeg9gnvmw

@@ -1,0 +1,64 @@
+﻿@model RequestsVM
+
+@{
+    ViewData["Title"] = "Yönetici Sayfası";
+}
+
+@{
+    int count = 1;
+}
+
+<h1>Bekleyen Talepler</h1>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">ÇALIŞAN AD</th>
+      <th scope="col">ÇALIŞAN SOYAD</th>
+      <th scope="col">TALEP TÜRÜ</th>
+      <th scope="col">TALEP DETAYI</th>
+    </tr>
+  </thead>
+  <tbody>
+
+        @foreach (var item in Model.Advanceds)
+        {
+            <tr>
+                <th scope="row">@count</th>
+                <td>@item.Employee.Name</td>
+                <td>@item.Employee.Surname</td>
+                <td>AVANS</td>
+                <td><a asp-area="CompanyManagerArea" asp-controller="CompanyManager" asp-action="AdvanceDetails" asp-route-id="@item.Id">Detaylar</a></td>
+            </tr>
+            
+            count++;
+            
+        }
+        @foreach (var item in Model.Expenses)
+        {
+            <tr>
+                <th scope="row">@count</th>
+                <td>@item.Employee.Name</td>
+                <td>@item.Employee.Surname</td>
+                <td>HARCAMA</td>
+                <td><a asp-area="CompanyManagerArea" asp-controller="CompanyManager" asp-action="ExpenseDetails" asp-route-id="@item.Id">Detaylar</a></td>
+            </tr>
+            
+            count++;
+            
+        }
+         @foreach (var item in Model.Leaves)
+        {
+            <tr>
+                <th scope="row">@count</th>
+                <td>@item.Employee.Name</td>
+                <td>@item.Employee.Surname</td>
+                <td>İZİN</td>
+                <td><a asp-area="CompanyManagerArea" asp-controller="CompanyManager" asp-action="LeaveDetails" asp-route-id="@item.Id">Detaylar</a></td>
+            </tr>
+            
+            count++;
+        }
+  </tbody>
+</table>

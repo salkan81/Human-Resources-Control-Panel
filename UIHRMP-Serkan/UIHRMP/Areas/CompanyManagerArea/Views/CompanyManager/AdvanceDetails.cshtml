@@ -1,0 +1,68 @@
+﻿@model HRMP.CORE.Entities.AdvancedPayment
+
+@{
+    ViewData["Title"] = "Avans Detayı";
+}
+
+<h1>AVANS DETAYLARI</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            AVANS İÇERİĞİ
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PaymentContent)
+        </dd>
+        <dt class = "col-sm-2">
+            AVANS TALEP TARİHİ
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateOfIssue)
+        </dd>
+        <dt class = "col-sm-2">
+            AÇIKLAMA
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IsCorfirmed)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IsCorfirmed)
+        </dd>
+        <dt class = "col-sm-2">
+            ÇALIŞANIN ADI
+        </dt>
+        <dd class = "col-sm-10">
+            @ViewBag.Emp.Name
+           
+        </dd>
+        <dt class = "col-sm-2">
+            ÇALIŞANIN SOYADI
+        </dt>
+        <dd class = "col-sm-10">
+            @ViewBag.Emp.Surname
+        </dd>
+        <dt class = "col-sm-2">
+            ÇALIŞANIN TC NO
+        </dt>
+        <dd class = "col-sm-10">
+            @ViewBag.Emp.TCNo
+        </dd>
+    </dl>
+   <form asp-action="AdvanceDetails">
+         <div style="margin-top:10px">
+                <input type="submit" value="ONAYLA" class="btn btn-primary"
+                   asp-action="AcceptAdvanceRequest" asp-area="CompanyManagerArea" asp-controller="CompanyManager" asp-route-id="@Model.Id" style="color:white;text-decoration:none"/>
+                <input type="submit" value="REDDET" class="btn btn-primary"
+                   asp-action="RejectAdvanceRequest" asp-area="CompanyManagerArea" asp-controller="CompanyManager" asp-route-id="@Model.Id" style="color:white;text-decoration:none"/>
+            </div>
+    </form>
+          
+</div>
+<div>
+     <a asp-area="CompanyManagerArea" asp-controller="CompanyManager" asp-action="Index">ANA SAYFA</a> |
+</div>

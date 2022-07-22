@@ -1,0 +1,71 @@
+﻿@model HRMP.CORE.Entities.Company
+
+@{
+    ViewData["Title"] = "Şirket Ekle";
+    string path = "@example.com";
+}
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CreateCompany" enctype="multipart/form-data" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CompanyName" class="control-label">Şirket Adı</label>
+                <input asp-for="CompanyName" class="form-control" />
+                <span asp-validation-for="CompanyName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label">Adres</label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FoundationYear" class="control-label">Kuruluş Tarihi</label>
+                <input asp-for="FoundationYear" data-val-required="Kuruluş tarihi giriniz." class="form-control" type="date" />
+                <span asp-validation-for="FoundationYear" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailExtension" class="control-label">E-Mail Uzantısı</label>
+                <input asp-for="EmailExtension" class="form-control" placeholder=@path />
+                <span asp-validation-for="EmailExtension" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NumberOfEmployees" class="control-label">Çalışan Sayısı</label>
+                <input asp-for="NumberOfEmployees" class="form-control" />
+                <span asp-validation-for="NumberOfEmployees" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CompanyLogo">Şirket Logosu Ekle(jpeg/gif/png):</label>
+                <input type="file" asp-for="CompanyLogo" accept="image/jpeg,image/gif,image/png" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Ekle" class="btn btn-primary" />
+            </div>
+            @if (TempData["Validation"] != null)
+            {
+                <div style="margin-top:10px" class="alert alert-danger" role="alert">
+                    @TempData["Validation"]
+                </div>
+            }
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="ListCompanies">Şirket Listesine Dön</a>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
+
+<script>
+  document.getElementById('phone').addEventListener('input', function (e) {
+  var x = e.target.value.replace(/\D/g, '').match(/(\d{0,3})(\d{0,3})(\d{0,4})/);
+  e.target.value = !x[2] ? x[1] : '(' + x[1] + ') ' + x[2] + (x[3] ? '-' + x[3] : '');
+});
+</script>

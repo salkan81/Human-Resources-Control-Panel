@@ -1,0 +1,44 @@
+﻿@model RequestsVM
+
+@{
+    ViewData["Title"] = "Avanslar";
+}
+
+@{
+    int count = 1;
+}
+
+<h1>AVANSLAR</h1>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">ÇALIŞAN AD</th>
+      <th scope="col">ÇALIŞAN SOYAD</th>
+      <th scope="col">TALEP TARİHİ</th>
+      <th scope="col">TALEP DETAYI</th>
+      <th scope="col">TALEP DURUMU</th>
+    </tr>
+  </thead>
+  <tbody>
+
+        @foreach (var item in Model.Advanceds)
+        {
+            <tr>
+                <th scope="row">@count</th>
+                <td>@item.Employee.Name</td>
+                <td>@item.Employee.Surname</td>
+                <td>@item.DateOfIssue</td>
+                <td>@item.Description</td>
+                <td>@item.IsCorfirmed</td>
+            </tr>
+            
+            count++;
+            
+        }
+     
+
+
+  </tbody>
+</table>

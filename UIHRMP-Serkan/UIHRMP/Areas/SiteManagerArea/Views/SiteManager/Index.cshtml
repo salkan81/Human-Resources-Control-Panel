@@ -1,0 +1,77 @@
+﻿@model IEnumerable<HRMP.CORE.Entities.Package>
+
+@{
+    ViewData["Title"] = "Paket Listesi";
+}
+<!-- Custom styles for this page -->
+<link href="~/startbootstrap-sb-admin-2-gh-pages/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+<link href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="~/DataTables/datatables.min.css" />
+<script type="text/javascript" src="~/DataTables/datatables.min.js"></script>
+<script type="text/javascript" src="~/vendor/jquery/jquery.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="~/DataTables_2/datatables.min.css"/>
+ 
+<script type="text/javascript" src="~/DataTables_2/datatables.min.js"></script>
+
+
+<h2>@ViewBag.Hata</h2>
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Paket Listesi</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Paket Fotoğrafı</th>
+                            <th>Paket Adı</th>
+                            <th>Paket Tutarı</th>                            
+                            <th>Kullanıcı Sayısı</th>
+                            <th>Oluşturulma Tarihi</th>
+                            <th>Paket Süresi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <img src="@Url.Content(item.PackagePhotoPath)" width="50" height="50" />
+                                </td>
+                                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Cost)</td>
+                                <td>@Html.DisplayFor(modelItem => item.NumberOfUser)</td>
+                                <td>@Html.DisplayFor(modelItem => item.GenerationDate)</td>
+                                <td>@Html.DisplayFor(modelItem => item.PackageTimeInDays)</td>
+                               
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- /.container-fluid -->
+
+<script>
+    $("table").ready(function() {
+        $('#dataTable').DataTable();
+    });</script>
+<script>
+    $("p").click(function() {
+        $(this).
+            hide();
+    });</script>

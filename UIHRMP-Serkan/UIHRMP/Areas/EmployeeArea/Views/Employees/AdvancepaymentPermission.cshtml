@@ -1,0 +1,61 @@
+﻿@model HRMP.CORE.Entities.AdvancedPayment
+
+@{
+    ViewData["Title"] = "AdvancepaymentPermission";
+}
+
+<h1>AdvancepaymentPermission</h1>
+
+<h4>AdvancedPayment</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AdvancepaymentPermission">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PaymentContent" class="control-label"></label>
+                <input asp-for="PaymentContent" class="form-control" />
+                <span asp-validation-for="PaymentContent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfIssue" class="control-label"></label>
+                <input asp-for="DateOfIssue" class="form-control" />
+                <span asp-validation-for="DateOfIssue" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsCorfirmed" class="control-label"></label>
+                <select asp-for="IsCorfirmed" class="form-control"></select>
+                <span asp-validation-for="IsCorfirmed" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmployeeId" class="control-label"></label>
+                <select asp-for="EmployeeId" class ="form-control" asp-items="ViewBag.EmployeeId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="CompanyManagerId" class="control-label"></label>
+                <select asp-for="CompanyManagerId" class ="form-control" asp-items="ViewBag.CompanyManagerId"></select>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsRead" /> @Html.DisplayNameFor(model => model.IsRead)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

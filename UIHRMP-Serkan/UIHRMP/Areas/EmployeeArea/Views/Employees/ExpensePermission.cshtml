@@ -1,0 +1,76 @@
+﻿@model HRMP.CORE.Entities.Expense
+
+@{
+    ViewData["Title"] = "ExpensePermission";
+}
+
+<h1>ExpensePermission</h1>
+
+<h4>Expense</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ExpensePermission">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Amount" class="control-label"></label>
+                <input asp-for="Amount" class="form-control" />
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ExpenseContent" class="control-label"></label>
+                <input asp-for="ExpenseContent" class="form-control" />
+                <span asp-validation-for="ExpenseContent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfExpense" class="control-label"></label>
+                <input asp-for="DateOfExpense" class="form-control" />
+                <span asp-validation-for="DateOfExpense" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConfirmStatus" class="control-label"></label>
+                <select asp-for="ConfirmStatus" class="form-control"></select>
+                <span asp-validation-for="ConfirmStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ExpenseType" class="control-label"></label>
+                <select asp-for="ExpenseType" class="form-control"></select>
+                <span asp-validation-for="ExpenseType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ExpenseDocumentPath" class="control-label"></label>
+                <input asp-for="ExpenseDocumentPath" class="form-control" />
+                <span asp-validation-for="ExpenseDocumentPath" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmployeeId" class="control-label"></label>
+                <select asp-for="EmployeeId" class ="form-control" asp-items="ViewBag.EmployeeId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="CompanyManagerId" class="control-label"></label>
+                <select asp-for="CompanyManagerId" class ="form-control" asp-items="ViewBag.CompanyManagerId"></select>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsRead" /> @Html.DisplayNameFor(model => model.IsRead)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

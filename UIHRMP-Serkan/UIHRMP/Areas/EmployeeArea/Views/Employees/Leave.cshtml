@@ -1,0 +1,51 @@
+﻿@using HRMP.CORE.Enum
+@model HRMP.CORE.Entities.Leave
+
+@{
+    ViewData["Title"] = "İzin Talebi";
+}
+
+<h1>İZİN TALEBİ</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Leave">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="LeaveContent" class="control-label">İZİN NEDENİ</label>
+                <input asp-for="LeaveContent" class="form-control" />
+                <span asp-validation-for="LeaveContent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LeaveType" class="control-label">İZİN TÜRÜ</label>
+                <select asp-for="LeaveType" class="form-control" asp-items="Html.GetEnumSelectList<LeaveType>()"> </select>
+                <span asp-validation-for="LeaveType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TotalDaysOff" class="control-label">TOPLAM İZİN GÜN SAYISI</label>
+                <input asp-for="TotalDaysOff" class="form-control" />
+                <span asp-validation-for="TotalDaysOff" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartLeaveDate" class="control-label">İZİN BAŞLANGIÇ TARİHİ</label>
+                <input asp-for="StartLeaveDate" class="form-control" />
+                <span asp-validation-for="StartLeaveDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label">İZİN AÇIKLAMASI</label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="OLUŞTUR" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

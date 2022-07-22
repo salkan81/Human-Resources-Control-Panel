@@ -1,0 +1,17 @@
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.DAL\bin\Release\net6.0\HRMP.DAL.deps.json
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.DAL\bin\Release\net6.0\HRMP.DAL.runtimeconfig.json
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.DAL\bin\Release\net6.0\HRMP.DAL.dll
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.DAL\bin\Release\net6.0\HRMP.DAL.pdb
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.DAL\bin\Release\net6.0\HRMP.CORE.dll
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.DAL\bin\Release\net6.0\HRMP.CORE.pdb
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.DAL\obj\Release\net6.0\HRMP.DAL.csproj.AssemblyReference.cache
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.DAL\obj\Release\net6.0\HRMP.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.DAL\obj\Release\net6.0\HRMP.DAL.AssemblyInfoInputs.cache
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.DAL\obj\Release\net6.0\HRMP.DAL.AssemblyInfo.cs
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.DAL\obj\Release\net6.0\HRMP.DAL.csproj.CoreCompileInputs.cache
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.DAL\obj\Release\net6.0\HRMP.DAL.csproj.CopyComplete
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.DAL\obj\Release\net6.0\HRMP.DAL.dll
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.DAL\obj\Release\net6.0\refint\HRMP.DAL.dll
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.DAL\obj\Release\net6.0\HRMP.DAL.pdb
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.DAL\obj\Release\net6.0\HRMP.DAL.genruntimeconfig.cache
+C:\Users\serka\Source\Workspaces\Deneme\UIHRMP-Serkan\HRMP.DAL\obj\Release\net6.0\ref\HRMP.DAL.dll

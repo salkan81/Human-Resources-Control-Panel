@@ -1,0 +1,76 @@
+﻿@model HRMP.CORE.Entities.Leave
+
+@{
+    ViewData["Title"] = "LeavePermission";
+}
+
+<h1>LeavePermission</h1>
+
+<h4>Leave</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="LeavePermission">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="LeaveContent" class="control-label"></label>
+                <input asp-for="LeaveContent" class="form-control" />
+                <span asp-validation-for="LeaveContent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LeaveType" class="control-label"></label>
+                <select asp-for="LeaveType" class="form-control"></select>
+                <span asp-validation-for="LeaveType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TotalDaysOff" class="control-label"></label>
+                <input asp-for="TotalDaysOff" class="form-control" />
+                <span asp-validation-for="TotalDaysOff" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartLeaveDate" class="control-label"></label>
+                <input asp-for="StartLeaveDate" class="form-control" />
+                <span asp-validation-for="StartLeaveDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EndLeaveDate" class="control-label"></label>
+                <input asp-for="EndLeaveDate" class="form-control" />
+                <span asp-validation-for="EndLeaveDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConfirmStatus" class="control-label"></label>
+                <select asp-for="ConfirmStatus" class="form-control"></select>
+                <span asp-validation-for="ConfirmStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmployeeId" class="control-label"></label>
+                <select asp-for="EmployeeId" class ="form-control" asp-items="ViewBag.EmployeeId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="CompanyManagerId" class="control-label"></label>
+                <select asp-for="CompanyManagerId" class ="form-control" asp-items="ViewBag.CompanyManagerId"></select>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsRead" /> @Html.DisplayNameFor(model => model.IsRead)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

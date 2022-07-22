@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UIHRMP", "UIHRMP\UIHRMP.csproj", "{7649EAD9-2225-4652-BE03-7C802E9AC850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMP.DAL", "HRMP.DAL\HRMP.DAL.csproj", "{B77186DD-850F-48C2-B943-12EF18E17746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMP.BLL", "HRMP.BLL\HRMP.BLL.csproj", "{0F2F5DC2-5431-4A42-B608-CC696FCC456D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMP.CORE", "HRMP.CORE\HRMP.CORE.csproj", "{39692821-E7A8-4D79-9969-160D74808238}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7649EAD9-2225-4652-BE03-7C802E9AC850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7649EAD9-2225-4652-BE03-7C802E9AC850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7649EAD9-2225-4652-BE03-7C802E9AC850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7649EAD9-2225-4652-BE03-7C802E9AC850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B77186DD-850F-48C2-B943-12EF18E17746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77186DD-850F-48C2-B943-12EF18E17746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77186DD-850F-48C2-B943-12EF18E17746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77186DD-850F-48C2-B943-12EF18E17746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2F5DC2-5431-4A42-B608-CC696FCC456D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2F5DC2-5431-4A42-B608-CC696FCC456D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2F5DC2-5431-4A42-B608-CC696FCC456D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2F5DC2-5431-4A42-B608-CC696FCC456D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39692821-E7A8-4D79-9969-160D74808238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39692821-E7A8-4D79-9969-160D74808238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39692821-E7A8-4D79-9969-160D74808238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39692821-E7A8-4D79-9969-160D74808238}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76E3448B-D79C-4577-A29F-9F2662CCFB23}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/kd9team1
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = UIHRMP\\UIHRMP.csproj
+		SccProjectName1 = UIHRMP
+		SccLocalPath1 = UIHRMP
+		SccProjectUniqueName2 = HRMP.DAL\\HRMP.DAL.csproj
+		SccProjectName2 = HRMP.DAL
+		SccLocalPath2 = HRMP.DAL
+		SccProjectUniqueName3 = HRMP.BLL\\HRMP.BLL.csproj
+		SccProjectName3 = HRMP.BLL
+		SccLocalPath3 = HRMP.BLL
+		SccProjectUniqueName4 = HRMP.CORE\\HRMP.CORE.csproj
+		SccProjectName4 = HRMP.CORE
+		SccLocalPath4 = HRMP.CORE
+	EndGlobalSection
+EndGlobal
